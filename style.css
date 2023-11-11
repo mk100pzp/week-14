@@ -1,12 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+    box-sizing: border-box !important;
 }
 
 body {
-    background-color: #131921;
-    font-family: 'Arial', sans-serif;
+    background-color: #131921 !important;
+    font-family: 'Arial', sans-serif !important;
 }
 
 .nav_belt {
@@ -55,3 +54,4 @@ body {
     padding: 20px;
     text-align: center;
 }
+

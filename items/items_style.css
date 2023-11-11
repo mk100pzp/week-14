@@ -1,0 +1,16 @@
+.margin-top{
+    margin-top: 20px;
+}
+.label{
+    color: #cc7a00;
+}
+
+.link{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.link:hover{
+    font-size: large;
+    color: aliceblue;
+}
