@@ -29,17 +29,9 @@ Webazon is a responsive website template for an online store built with HTML, CS
 
 ## Installation
 
-No installation is required to use the template. Simply clone the repository and open the `index.html` file in a web browser.
+No installation is required to use the template. Simply clone the repository and open the `Main.html` file in a web browser.
 
-## Contributing
 
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
 
 ## License
 
