@@ -1,6 +1,13 @@
-.text_color{
-    color:white;
-    z-index: 1
-
-
+body {
+    background-color: #131921 !important;
+    font-family: 'Arial', sans-serif !important;
+    color:aliceblue; font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+.p{
+
+    color:aliceblue; font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#text{ 
+    color:rgb(155, 149, 149) !important; font-family: cursive; text-decoration:none;}
