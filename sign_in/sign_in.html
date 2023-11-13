@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Webazon</title>
+    <link rel="icon" type="image/x-icon" href="images\images.jpeg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box !important;
+        }
+        
+        body {
+            background-color: #131921 !important;
+            font-family: 'Arial', sans-serif !important;
+        }
+
+        .border{
+            border-radius: 10px;
+            
+        }
+        
+        .nav_belt {
+            background-color: #131921;
+            padding: 20px;
+        }
+        
+        .webazon-logo {
+            color: aliceblue;
+            font-size: xx-large;
+        }
+        
+        .search-box {
+            width: 100%;
+            max-width: 800px;
+            height: 40px;
+        }
+        
+        .nav_main {
+            background-color: #232f3e;
+            padding: 20px;
+            padding-left: 200px;
+        }
+        
+        .item1 {
+            size: 50px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 35px;
+            background-color: #131921;
+            padding: 20px;
+        }
+        
+        .grid-container>div {
+            background-color: #131921;
+            text-align: center;
+            padding: 0;
+            font-size: 30px;
+        }
+        
+        .footer {
+            background-color: #232f3e;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="nav_belt">
+            <div class="row">
+                <div class="col-lg-1 col-md-2 col-sm-3 col-12 menu-icon">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MENU
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 col-6 webazon-logo">
+                    <a style="color:whitesmoke; font-family: cursive; text-decoration:none;" href=""><b>WEBAZON</b></a>
+                </div>
+                <div class="col-lg-7 col-md-8 col-sm-6 col-12">
+                    <input type="text" class="form-control search-box" placeholder=" Search Webazon ...">
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-12">
+                    <button type="button" class="btn btn-light"><a style="color:black; text-decoration:none" href="" target="_blank">Sign In</a></button>
+                </div>
+                <div class="col-lg-1 col-md-2 col-sm-3 col-12">
+                    <button type="button" class="btn btn-light"><a style="color:black; text-decoration:none" href="" ><i class="fa fa-shopping-cart" style="font-size:24px"></i></a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="m-5 p-5">
+            <div class="container " style="width: 650px; box-shadow:5px 5px 5px 5px #232f3e; border-radius:10px;">
+            
+                <div class="text-center">
+                    <br>
+                    <h1 style="color: whitesmoke;">Sign in</h1> 
+                    <p class="lead" style="color:whitesmoke">Enter your Username or Email</p>
+                    <div class="row justify-content-center my-5">
+                        <div class="col-lg-6">
+                            <form action="">
+                                <label for="email" class="form-label my-2 center" style="color:whitesmoke;">Email</label>
+                                <input type="email" id="email" placeholder = "id@email.com" class="form-control ">
+                                <label for="paswword" class="form-label my-3" style="color:whitesmoke">password</label>
+                                <input type="password" id="password" placeholder = "mypassword" class="form-control"> 
+                                <br>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Sign in</button> 
+                                </div>
+                                <br>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-12 webazon-logo">
+                    <a style="color:whitesmoke; text-decoration:none" href=""><b>Conditions of Use</b></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-12 webazon-logo">
+                    <a style="color:whitesmoke; text-decoration:none" href="" target="_blank"><b>About Us</b></a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-12 webazon-logo">
+                    <a style="color:whitesmoke; text-decoration:none" href="" target="_blank"><b>Privacy Notice</b></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
