@@ -17,6 +17,11 @@ body {
     padding: 20px;
 }
 
+.webazon-logo {
+    color: aliceblue;
+    font-size: xx-large;
+}
+
 .footer {
     background-color: #232f3e;
     padding: 20px;
