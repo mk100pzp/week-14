@@ -1,5 +1,13 @@
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
 .margin-top{
     margin-top: 20px;
+    
 }
 .label{
     color: #cc7a00;
@@ -13,4 +21,11 @@
 .link:hover{
     font-size: large;
     color: aliceblue;
+    height: 250px;
+
+}
+
+.link img:hover{
+    box-shadow: 3px lightgrey;
+    size: 500px;
 }
