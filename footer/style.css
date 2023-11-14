@@ -43,11 +43,11 @@ body {
   
   .footer {
     background-color: #232f3e;
+     margin-bottom:0;
     color: whitesmoke;
     padding: 10px 0;
     color: aliceblue;
     font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
      font-size: 10px;
-
   }
 
